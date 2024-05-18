@@ -1,0 +1,51 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    height: 350px; /* Set a fixed height for the cards */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure the body takes full height */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #3490dc;
+    border-color: #3490dc;
+}
+
+.btn-primary:hover {
+    background-color: #2779bd;
+    border-color: #2779bd;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
